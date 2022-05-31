@@ -1,9 +1,12 @@
 ## 디자인 패턴
+
 - [참고 영상](https://www.youtube.com/watch?v=gJDZ7pcvlAU&list=PLsoscMhnRc7pPsRHmgN4M8tqUdWZzkpxY&index=3)
+- [코드 자료 링크](https://bitbucket.org/garampark/java-design-pattern/src/master/)
 
 ### 목차
+
 - [ ] 1강 스트래티지 패턴(Strategy Pattern)
-- [x] 2강 어댑터 패턴(Adapter Pattern)
+- [x] [2강 어댑터 패턴(Adapter Pattern)](../src/main/java/adapter)
 - [ ] 3강 템플릿 메소드 패턴(Template Method Pattern)
 - [ ] 4강 팩토리 메소드(Factory Method Pattern)
 - [ ] 5강 싱글톤 패턴(Singleton Pattern)
@@ -15,7 +18,7 @@
 - [ ] 8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2
 - [ ] 9강 브릿지 패턴 (Bridge Pattern)
 - [ ] 10강 컴포짓 패턴(Composite Pattern)
-- [ ] 11강 데코레이터 패턴 (Decorator Pattern)
+- [x] 11강 데코레이터 패턴 (Decorator Pattern)
 - [ ] 12강 방문자 패턴 (Visitor Pattern)
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 1
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 2
