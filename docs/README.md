@@ -9,7 +9,8 @@
 - [x] [2강 어댑터 패턴(Adapter Pattern)](../src/main/java/adapter)
     <details>
     <summary>diagram</summary>
-    ![20220531225025](https://raw.githubusercontent.com/is2js/screenshots/main/20220531225025.png)
+
+  ![20220531225025](https://raw.githubusercontent.com/is2js/screenshots/main/20220531225025.png)
     </details>
 - [ ] 3강 템플릿 메소드 패턴(Template Method Pattern)
 - [ ] 4강 팩토리 메소드(Factory Method Pattern)
@@ -25,9 +26,10 @@
 - [x] [11강 데코레이터 패턴 (Decorator Pattern)](../src/main/java/decorator)
     <details>
     <summary>diagram</summary>
-    ![20220531225111](https://raw.githubusercontent.com/is2js/screenshots/main/20220531225111.png)
-    </details>
   
+  ![20220531225111](https://raw.githubusercontent.com/is2js/screenshots/main/20220531225111.png)
+    </details>
+
 - [ ] 12강 방문자 패턴 (Visitor Pattern)
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 1
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 2
