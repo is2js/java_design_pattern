@@ -87,4 +87,6 @@
 	```
 
 2. 추상클래스를 구현한 (자식)클래스 구현
-	- 주로 Abst를 떼고 -> `Default`를 붙여 이름 짓는다.
+	1. 주로 Abst를 떼고 -> `Default`를 붙여 이름 짓는다.
+		![a214fe44-cd8e-44ea-873c-e3ebe4696c5d](https://raw.githubusercontent.com/is2js/screenshots/main/a214fe44-cd8e-44ea-873c-e3ebe4696c5d.gif)
+	2. 내부 구현은 실제로직 대신 sout로 대신한다.
