@@ -5,10 +5,9 @@
 - 디자인 패턴의 종류([출저](https://gmlwjd9405.github.io/2018/07/06/design-pattern.html))
     <details>
     <summary>diagram</summary>
-    
-    ![20220602195522](https://raw.githubusercontent.com/is2js/screenshots/main/20220602195522.png)  
-    </details>
 
+  ![20220602195522](https://raw.githubusercontent.com/is2js/screenshots/main/20220602195522.png)
+    </details>
 
 ### 목차
 
@@ -17,13 +16,13 @@
     <details>
     <summary>diagram</summary>
 
-    ![20220602210224](https://raw.githubusercontent.com/is2js/screenshots/main/20220602210224.png)
+  ![20220602210224](https://raw.githubusercontent.com/is2js/screenshots/main/20220602210224.png)
     </details>
-- [x] [3강 템플릿 메소드 패턴(Template Method Pattern)]((../src/main/java/templatemethod))
+- [x] [3강 템플릿 메소드 패턴(Template Method Pattern)](../src/main/java/templatemethod)
     <details>
     <summary>diagram</summary>
 
-    ![20220607162226](https://raw.githubusercontent.com/is2js/screenshots/main/20220607162226.png)
+  ![20220607162226](https://raw.githubusercontent.com/is2js/screenshots/main/20220607162226.png)
     </details>
 - [ ] 4강 팩토리 메소드(Factory Method Pattern)
 - [ ] 5강 싱글톤 패턴(Singleton Pattern)
@@ -38,7 +37,7 @@
 - [x] [11강 데코레이터 패턴 (Decorator Pattern)](../src/main/java/decorator)
     <details>
     <summary>diagram</summary>
-  
+
   ![20220531225111](https://raw.githubusercontent.com/is2js/screenshots/main/20220531225111.png)
     </details>
 
