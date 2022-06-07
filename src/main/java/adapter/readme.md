@@ -1,6 +1,12 @@
 ## 어댑터 패턴
 - 목적: 연관성 없는 2 객체를 묶어 사용하기
 - 실목적: `미리 주어진 기능(class), 외부라이브러리`를 **Client(호출부) 변경없이, Adapter인터페이스도 변경없이** `요구사항(다른 인자/응답/메서드명)에 맞게 + 기능 추가해서 사용`하기 위해 Adapter(Impl)에 주입해서 내부에서 사용
+	- **적용 후기: 외부라이브러리1개당 그것을 포장해서 사용하는 구체adapter를 만들어주되, 메서드명/인자/응답형은 Adatper인터페이스에서 공통으로 사용되는 것으로 바꿔서 정의한 뒤, 인터페이스를 추출하고, 추상체 변수형을 사용하도록 코드 전체를 변경한다.**
+
+- 참고
+	![20220602210214](https://raw.githubusercontent.com/is2js/screenshots/main/20220602210214.png)
+	![image-20220602210239572](https://raw.githubusercontent.com/is2js/screenshots/main/image-20220602210239572.png)
+	![image-20220602220325928](https://raw.githubusercontent.com/is2js/screenshots/main/image-20220602220325928.png)
 
 
 - 사전적 의미: 기계 기구 등을 다목적으로 사용하기 위한 `부가기구`
