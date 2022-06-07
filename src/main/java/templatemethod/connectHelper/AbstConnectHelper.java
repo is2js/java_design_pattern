@@ -1,4 +1,4 @@
-package templatemethod;
+package templatemethod.connectHelper;
 
 public abstract class AbstConnectHelper {
     protected abstract String doSecurity(String info);
@@ -30,6 +30,8 @@ public abstract class AbstConnectHelper {
         final String userName = "userName";
         final int authorization = authorization(userName);
         switch (authorization) {
+            case -1: // 10시 제한 정책에 걸린 미성년자
+                break;
             case 0: // GM
                 break;
             case 1: // 유료 회원 -> 아템 확를 높음. 경험치 많음.

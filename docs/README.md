@@ -19,7 +19,12 @@
 
     ![20220602210224](https://raw.githubusercontent.com/is2js/screenshots/main/20220602210224.png)
     </details>
-- [ ] 3강 템플릿 메소드 패턴(Template Method Pattern)
+- [x] [3강 템플릿 메소드 패턴(Template Method Pattern)]((../src/main/java/templatemethod))
+    <details>
+    <summary>diagram</summary>
+
+    ![20220607162226](https://raw.githubusercontent.com/is2js/screenshots/main/20220607162226.png)
+    </details>
 - [ ] 4강 팩토리 메소드(Factory Method Pattern)
 - [ ] 5강 싱글톤 패턴(Singleton Pattern)
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 1
