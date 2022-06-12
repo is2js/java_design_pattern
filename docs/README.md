@@ -18,6 +18,7 @@
 
   ![20220602210224](https://raw.githubusercontent.com/is2js/screenshots/main/20220602210224.png)
     </details>
+
 - [x] [3강 템플릿 메소드 패턴(Template Method Pattern)](../src/main/java/templatemethod)
     <details>
     <summary>diagram</summary>
@@ -30,7 +31,12 @@
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 2
 - [ ] 7강 빌더 패턴 (Builder Pattern) - 1
 - [ ] 7강 빌더 패턴 (Builder Pattern) - 2
-- [ ] 8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 1
+- [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 1](../src/main/java/abstractfactory)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220612235424](https://raw.githubusercontent.com/is2js/screenshots/main/20220612235424.png)
+    </details>
 - [ ] 8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2
 - [ ] 9강 브릿지 패턴 (Bridge Pattern)
 - [ ] 10강 컴포짓 패턴(Composite Pattern)
@@ -44,8 +50,8 @@
 - [ ] 12강 방문자 패턴 (Visitor Pattern)
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 1
 - [ ] 13강 책임사슬 패턴 (Chain of Resposibility) - 2
-- [ ] 15강 옵저버 패턴 (Observer) - 1
 - [ ] 14강 퍼사드 패턴 (Facade)
+- [ ] 15강 옵저버 패턴 (Observer) - 1
 - [ ] 15강 옵저버 패턴 (Observer) - 2
 - [ ] 15강 옵저버 패턴 (Observer) - 3
 - [ ] 16강 중재자 패턴 (Mediator)
