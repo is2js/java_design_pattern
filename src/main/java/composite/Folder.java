@@ -1,6 +1,7 @@
 package composite;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Folder extends Component {
@@ -17,5 +18,9 @@ public class Folder extends Component {
 
     public boolean removeComponent(Component component) {
         return children.remove(component);
+    }
+
+    public List<Component> getChildren() {
+        return Collections.unmodifiableList(children);
     }
 }

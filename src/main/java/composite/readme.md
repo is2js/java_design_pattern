@@ -1,7 +1,8 @@
 ## 컴포짓 패턴
 
 - 목적: 컨테이너와 내용물을 동일시한다.
-- 실목적:
+- 실목적: 요소와 컨테이너(일급컬렉션 with 빈리스트로 변수초기화)가 같은 추상체(for요소)를 구현하여 컨테이너1에 컨테이너2든 요소든 상관없이 add할 수 있게 만듬.
+	- **파일시스템 같은 tree구조에서 foler(컨테이너)든 file(요소)든 add가능**
 
 
 - 기본 설계
@@ -56,3 +57,22 @@
 
 5. Main(Client)에서 composite패턴의 leaf(File)와 compiste(Folder) 활용해보기
 	1. 각 Folder와 File의 객체들을 name을 넣어 생성해준다.
+		- **여러 객체를 생성할 때, 1개 객체 생성 -> 바꿀문자열 복사 -> `ctrl + D` + `ctrl+ V`를 활용했다.**
+		![d4234faf-712d-443b-8b73-e6cdae6b9be7](https://raw.githubusercontent.com/is2js/screenshots/main/d4234faf-712d-443b-8b73-e6cdae6b9be7.gif)
+
+	2. **이제 파일시스템 Tree를 보면서, `root부터 add`해준다.**
+		- **폴더들은 빈`List<Component>`로 초기화 되어있기 때문에 `1개를 add로 넣든, 여러개를 add로 넣든` 상관없다.**
+		- **`폴더 역시 Component구현체`이므로 `폴더에 file을 넣든, 폴더에 폴더(list file)을 넣든` 상관없다.**
+			- add시 파일시스템 tree를 보면서 `tab을 활용`해가며 넣어주자.
+		![4a6f05da-458a-4cb6-ab76-d280e4654406](https://raw.githubusercontent.com/is2js/screenshots/main/4a6f05da-458a-4cb6-ab76-d280e4654406.gif)
+
+
+6. tree구조를 탐색하는 메서드를 짜서 확인한다.
+	1. **빠트린 컨테이너.getChildren() 메서드를 작성해야한다.**
+		 - 현재 add/removeComponent 기능만 컨테이너(Folder)에 있음.
+	2. show(root)로 호출해서 시작한다.
+	3. show()에 들어온 인자가 Folder라면 타고 들어가서 자식들을 돌아가며 show()한다.
+		- 파일이라면, 자식이 없으므로 위쪽 getName만 sout하고 끝난다.
+		- 폴더라면, `getChildren`()을 통해 가진 요소들을 다시 show()한다.
+			- 추상체를 instanceof로 확인시, 확인후에도 DownCasting해서 그 기능을 이용해야한다.
+	![afbe3abf-7d59-4518-af07-be79c21cdeaa](https://raw.githubusercontent.com/is2js/screenshots/main/afbe3abf-7d59-4518-af07-be79c21cdeaa.gif)

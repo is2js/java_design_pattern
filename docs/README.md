@@ -50,7 +50,13 @@
   ![20220613123232](https://raw.githubusercontent.com/is2js/screenshots/main/20220613123232.png)
     </details>
 - [ ] 9강 브릿지 패턴 (Bridge Pattern)
-- [ ] 10강 컴포짓 패턴(Composite Pattern)
+- [ ] [10강 컴포짓 패턴(Composite Pattern)](../src/main/java/composite)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220613215524](https://raw.githubusercontent.com/is2js/screenshots/main/20220613215524.png)
+    </details>
+
 - [x] [11강 데코레이터 패턴 (Decorator Pattern)](../src/main/java/decorator)
     <details>
     <summary>diagram</summary>
