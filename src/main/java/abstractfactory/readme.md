@@ -4,13 +4,13 @@
 - 실목적: 객체 생성시 필요한 여러 부품객체들을 생성하는 메서드의 명세(인터페이스) 인터페이스로 가상화된 Factory에 몰아넣어놓고, 각 구현체Factory들을 부품객체들+Factory를 구현해서 만들어놓으면, 어느 구현체든지 Client에서 구상Factory객체만 바꿔주면 생성과정일 동일하게 바로바로 생성된다.
     - 추상팩토리 -> 각 구상팩토리만 바꿔끼워넣는 전략패턴의 업그레이드 버전
     - **언제든 갈아끼울 수 있는 추상팩토리 변수 -> 부품 객체들도 생성시 자동으로 갈아끼어지도록 추상부품체 생성**하는 것이 핵심인 것 같다.
-
-
+    - **my) `팩토리메서드 패턴 with 템플릿메소드`과 다르게, factory 및 생성될 여러부품객체들이 존재하며, 그것드 전부 인터페이스로 추상화**
+        - 템플릿메소드(내부step들 다 호출해주는 public)이 없으니 추상클래스로 정의X 인터페이스로 명세만 정의 
 - 기본 설계
-	![20220612230241](https://raw.githubusercontent.com/is2js/screenshots/main/20220612230241.png)
-	- 생성하는 Factory부분을 `가상화`해서  `구체적인 생성 Factory를 가려주고`, Client는 가상화된 부분으로 `가상화된 Product`를 생성해서 활용한다.
-	- AbstractProudctA와 B가 관련된 객체들이다.
-		- 예를 들어, 자전거 생성이 필요한 Body와 Wheel을 예시로 든다.
+    ![20220612230241](https://raw.githubusercontent.com/is2js/screenshots/main/20220612230241.png)
+    - 생성하는 Factory부분을 `가상화`해서  `구체적인 생성 Factory를 가려주고`, Client는 가상화된 부분으로 `가상화된 Product`를 생성해서 활용한다.
+    - AbstractProudctA와 B가 관련된 객체들이다.
+        - 예를 들어, 자전거 생성이 필요한 Body와 Wheel을 예시로 든다.
 
 - 요구 사항
 

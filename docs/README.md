@@ -25,7 +25,13 @@
 
   ![20220607162226](https://raw.githubusercontent.com/is2js/screenshots/main/20220607162226.png)
     </details>
-- [ ] 4강 팩토리 메소드(Factory Method Pattern)
+- [x] [4강 팩토리 메소드(Factory Method Pattern)](../src/main/java/factorymethod)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220613175422](https://raw.githubusercontent.com/is2js/screenshots/main/20220613175422.png)
+    </details>
+
 - [ ] 5강 싱글톤 패턴(Singleton Pattern)
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 1
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 2
