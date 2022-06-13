@@ -37,7 +37,12 @@
 
   ![20220612235424](https://raw.githubusercontent.com/is2js/screenshots/main/20220612235424.png)
     </details>
-- [ ] 8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2
+- [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2](../src/main/java/abstractfactory2)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220613123232](https://raw.githubusercontent.com/is2js/screenshots/main/20220613123232.png)
+    </details>
 - [ ] 9강 브릿지 패턴 (Bridge Pattern)
 - [ ] 10강 컴포짓 패턴(Composite Pattern)
 - [x] [11강 데코레이터 패턴 (Decorator Pattern)](../src/main/java/decorator)
