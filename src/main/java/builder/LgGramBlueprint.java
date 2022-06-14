@@ -2,29 +2,37 @@ package builder;
 
 public class LgGramBlueprint extends Blueprint {
 
-    private Computer computer;
+//    private Computer computer;
+
+    private String cpu;
+    private String ram;
+    private String storage;
 
     public LgGramBlueprint() {
-        this.computer = new Computer("default", "default", "default");
+//        this.computer = new Computer("default", "default", "default");
     }
 
     @Override
     public void setCpu() {
-        computer.setCpu("i7");
+//        computer.setCpu("i7");
+        cpu = "i7";
     }
 
     @Override
     public void setRam() {
-        computer.setCpu("8g");
+//        computer.setRam("8g");
+        ram = "8g";
     }
 
     @Override
     public void setStorage() {
-        computer.setCpu("256g ssd");
+//        computer.setStorage("256g ssd");
+        storage = "256g ssd";
     }
 
     @Override
     Computer getComputer() {
-        return computer;
+//        return computer;
+        return new Computer(cpu, ram, storage);
     }
 }
