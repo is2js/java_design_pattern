@@ -4,18 +4,11 @@ public class ComputerFactory {
 
     private Blueprint blueprint;
 
-    public void setBluePrint(final Blueprint blueprint) {
+    public ComputerFactory(final Blueprint blueprint) {
         this.blueprint = blueprint;
     }
 
-
-    public void make() {
-        blueprint.setCpu();
-        blueprint.setRam();
-        blueprint.setStorage();
-    }
-
-    public Computer getComputer() {
+    public Computer make() {
         return blueprint.getComputer();
     }
 }

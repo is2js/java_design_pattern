@@ -2,13 +2,9 @@ package builder;
 
 public class Main {
     public static void main(String[] args) {
-        final ComputerFactory factory = new ComputerFactory();
+        final ComputerFactory factory = new ComputerFactory(new LgGramBlueprint());
 
-        factory.setBluePrint(new LgGramBlueprint());
-//        factory.setBluePrint(new MacBlueprint());
-
-        factory.make();
-        final Computer computer = factory.getComputer();
+        final Computer computer = factory.make();
 
         System.out.println("computer = " + computer);
     }
