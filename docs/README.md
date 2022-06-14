@@ -47,6 +47,12 @@
 
   ![20220614160948](https://raw.githubusercontent.com/is2js/screenshots/main/20220614160948.png)
     </details>
+- [x] [7강 빌더 패턴 (Builder Pattern) - 3](../src/main/java/builder3)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220614173548](https://raw.githubusercontent.com/is2js/screenshots/main/20220614173548.png)
+    </details>
 - [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 1](../src/main/java/abstractfactory)
 - [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2](../src/main/java/abstractfactory2)
     <details>
