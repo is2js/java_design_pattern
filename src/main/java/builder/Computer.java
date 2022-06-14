@@ -12,29 +12,29 @@ public class Computer {
         this.storage = storage;
     }
 
-    public String getCpu() {
-        return cpu;
-    }
+//    public String getCpu() {
+//        return cpu;
+//    }
+//
+//    public void setCpu(final String cpu) {
+//        this.cpu = cpu;
+//    }
+//
+//    public String getRam() {
+//        return ram;
+//    }
 
-    public void setCpu(final String cpu) {
-        this.cpu = cpu;
-    }
-
-    public String getRam() {
-        return ram;
-    }
-
-    public void setRam(final String ram) {
-        this.ram = ram;
-    }
-
-    public String getStorage() {
-        return storage;
-    }
-
-    public void setStorage(final String storage) {
-        this.storage = storage;
-    }
+//    public void setRam(final String ram) {
+//        this.ram = ram;
+//    }
+//
+//    public String getStorage() {
+//        return storage;
+//    }
+//
+//    public void setStorage(final String storage) {
+//        this.storage = storage;
+//    }
 
     @Override
     public String toString() {
