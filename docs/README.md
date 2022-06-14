@@ -35,13 +35,18 @@
 - [ ] 5강 싱글톤 패턴(Singleton Pattern)
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 1
 - [ ] 6강 프로토 타입 패턴(Prototype Pattern) - 2
-- [ ] [7강 빌더 패턴 (Builder Pattern) - 1](../src/main/java/builder)
+- [x] [7강 빌더 패턴 (Builder Pattern) - 1](../src/main/java/builder)
     <details>
     <summary>diagram</summary>
 
   ![20220614125047](https://raw.githubusercontent.com/is2js/screenshots/main/20220614125047.png)
     </details>
-- [ ] 7강 빌더 패턴 (Builder Pattern) - 2
+- [x] [7강 빌더 패턴 (Builder Pattern) - 2](../src/main/java/builder2)
+    <details>
+    <summary>diagram</summary>
+
+  ![20220614160948](https://raw.githubusercontent.com/is2js/screenshots/main/20220614160948.png)
+    </details>
 - [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 1](../src/main/java/abstractfactory)
 - [x] [8강 추상 팩토리 패턴 (Abstract Factory Pattern) - 2](../src/main/java/abstractfactory2)
     <details>
