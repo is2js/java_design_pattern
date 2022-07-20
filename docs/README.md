@@ -90,7 +90,12 @@
 - [ ] 15강 옵저버 패턴 (Observer) - 3
 - [ ] 16강 중재자 패턴 (Mediator)
 - [ ] 17강 상태 패턴(State Pattern)
-- [ ] 18강 메멘토 패턴 ( Memento Pattern)
+- [x] [18강 메멘토 패턴 (Memento Pattern)](../src/main/java/memento)
+    <details>
+    <summary>diagram</summary>
+
+  ![image-20220720232403076](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220720232403076.png)
+    </details>
 - [ ] 19강 플라이웨이트 패턴 ( Flyweight Pattern)
 - [ ] 20강 프록시 패턴 ( Proxy Pattern)
 - [ ] 21강 커맨드 패턴 ( Command Pattern)
