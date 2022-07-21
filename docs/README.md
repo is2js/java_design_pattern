@@ -98,4 +98,9 @@
     </details>
 - [ ] 19강 플라이웨이트 패턴 ( Flyweight Pattern)
 - [ ] 20강 프록시 패턴 ( Proxy Pattern)
-- [ ] 21강 커맨드 패턴 ( Command Pattern)
+- [x] [21강 커맨드 패턴 (Command Pattern)](../src/main/java/command)
+    <details>
+    <summary>diagram</summary>
+
+  ![image-20220721130104796](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220721130104796.png)
+    </details>
