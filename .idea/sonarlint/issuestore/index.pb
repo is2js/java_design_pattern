@@ -1,0 +1,33 @@
+
+X
+(src/main/java/abstractfactory2/Main.java,a\4\a4eb894458f339530de72d98c3c33882d507b87d
+O
+src/main/java/visitor/Main.java,4\2\42b4750920a1b2aa3c351f96628093100a88d402
+R
+"src/main/java/visitor/Visitor.java,7\8\780d4cfc5cc3328821a0b140ad6e0f25a2f57895
+S
+#src/main/java/visitor/VisitorA.java,2\0\20bf5f58bc1b0a4ff7bf65a86abf8a3f9e9b316d
+T
+$src/main/java/visitor/Visitable.java,c\4\c44aba7089648e132c48486e5e70da2f6f6cb2b3
+Q
+!src/main/java/composite/readme.md,8\8\883d4dbea6e941100ef8f8df86436345a0ca8025
+P
+ src/main/java/builder3/readme.md,b\4\b4f7710570d17e1c62ccc950ab6b6d3bceea006a
+T
+$src/main/java/defaultfiles/Main.java,3\6\36b7e605718f7c454eb380e1c837972aa4bed0d4
+U
+%src/main/java/visitor/VisitableA.java,2\8\2876b75b8ad7612e4a81029a3bada5a6d0590517
+T
+$src/main/java/defaultfiles/readme.md,7\d\7dfa4bab2300aa867f01bc6c303f57c60681c885
+O
+src/main/java/memento/readme.md,6\8\68d229e3be047d159625df8827a644d88c503021
+Y
+)src/main/java/memento/abc/Originator.java,6\c\6c93ab5e5ea09fce870987ee1fc4c36fb5828bb7
+O
+src/main/java/memento/Main.java,1\a\1a89313c80870c673486772adc21072ec451f51a
+V
+&src/main/java/memento/abc/Memento.java,e\9\e9e6e4e5f2fe4844e51641b7a8cb04873498a8b5
+R
+"src/main/java/command/Command.java,0\5\0598fc46caab0ea8e5ed30956b47574d612c694f
+]
+-src/main/java/command/StringPrintCommand.java,2\2\221767172e079c0aa8ac9f1c23dba9379d377ba8

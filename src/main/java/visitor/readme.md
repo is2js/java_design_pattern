@@ -3,12 +3,11 @@
 - 실목적: `내부코드 수정이 없길 바라는 객체`class`Visitor`에 대해 method를, `외부에서 정보/기능을 제공해주는 Visitable객체들`을 사용할 수 있게 해주는 패턴
 
 - 기본 설계
-	![visitor패턴](https://raw.githubusercontent.com/is3js/screenshots/main/
-	.png)
-	1. clinet가 visitor와 Visitable을 사용하는데
-	2. Visitor는 Visitable을 방문하고, Visitable은 visitor를 받아들인다.
-	3. ConcreteVisitor는 visitable이 가진 멤버변수들을 이용해 원하는 처리
-	4. ConcreteVisitable은 visitor를 받아들이는 정도로 구현한다.
+  ![image-20220723230451093](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220723230451093.png)
+    1. clinet가 visitor와 Visitable을 사용하는데
+    2. Visitor는 Visitable을 방문하고, Visitable은 visitor를 받아들인다.
+    3. ConcreteVisitor는 visitable이 가진 멤버변수들을 이용해 원하는 처리
+    4. ConcreteVisitable은 visitor를 받아들이는 정도로 구현한다.
 
 
 ### 적용
